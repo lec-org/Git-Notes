@@ -1,0 +1,22 @@
+{
+  "Appearance-dark@@card-layout-open-dark": false,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
+  "Plugin@@Projects-bg-color": "Projects-bg-color-default",
+  "Components@@CTA-BTN-enable": false,
+  "Components@@file-names-untrim": false,
+  "Components@@folder-font-bold": true,
+  "Components@@file-icon-remove": false,
+  "Components@@colorful-folder": true,
+  "Components@@outline-enhanced": true,
+  "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-accent-dark",
+  "Appearance-dark@@color-to-tab-icon-dark": false,
+  "Appearance-dark@@card-highlight-dark": false,
+  "Appearance-dark@@workspace-divider-transparent-dark": false,
+  "Editor@@line-hover-indicator": false,
+  "Editor@@codeblock-style-select": "codeblock-style-customize",
+  "Editor@@code-normal@@dark": "#D7D4A6",
+  "Editor@@code-comment@@dark": "#58BA5DCC",
+  "Editor@@code-function@@dark": "#65A3D1",
+  "Editor@@zoom-off": true,
+  "Editor@@file-line-width": "1250px"
+}
