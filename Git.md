@@ -778,6 +778,14 @@ https://www.cnblogs.com/FraserYu/p/11192840.html
 > 上文我提到，`git submodule update --remote`会导致子模块头指针分离，这样在自动同步的时候push会出问题
 > 因此，我使用仓库中的*sync_config.bat*进行配置文件(`.Obsidian仓库`)的同步。
 
+---
+## 使用Git推送大文件
+参见此网站[glf](https://git-lfs.com/)
+
+[[Git如何push大文件]]
+
+
+
 
 ## 轶事
 
