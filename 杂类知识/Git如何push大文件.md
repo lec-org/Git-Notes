@@ -31,6 +31,10 @@ git add .
 
 之后不需要任何特殊操作，正常commit和push即可
 
+> note:glfs能免费管理的文件大小有限，只有1GB，多了要收费
+
+![[Pasted image 20240902214746.png]]
+
 # clone包含大文件的项目
 
 如果使用glfs管理项目，那么当你直接用github主页的下载zip来下载仓库，你会发现所有的文件都是坏的。
