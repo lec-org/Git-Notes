@@ -784,7 +784,13 @@ https://www.cnblogs.com/FraserYu/p/11192840.html
 
 [[Git如何push大文件]]
 
+---
+## Windows中使用Git速度过慢
 
+在确保像本文档开头“配置”一栏那样设置过可靠的代理后，请继续阅读：
+[[git clone或push速度过慢]]
+
+---
 
 
 ## 轶事
