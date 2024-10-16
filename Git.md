@@ -99,6 +99,12 @@ git config --global --unset https.proxy
 
     创建一个名为 `<branch-name>` 的新分支。
 
+```bash
+git checkout --orphan <branch-name>
+```
+	创建一个孤立的，没有任何commit记录的分支
+
+
 - **切换分支**：
 
 ```bash
@@ -361,6 +367,7 @@ git fetch
 
 `git pull`相当于先`git fetch`后再`git merge`
 
+> *关于git pull的时机和pull时产生的冲突问题，有待更新*
 
 - **从远程拉取其他分支**：
 
@@ -785,10 +792,34 @@ https://www.cnblogs.com/FraserYu/p/11192840.html
 [[Git如何push大文件]]
 
 ---
-## Windows中使用Git速度过慢
+
+## 问题解决
+
+### Windows中使用Git速度过慢
 
 在确保像本文档开头“配置”一栏那样设置过可靠的代理后，请继续阅读：
 [[git clone或push速度过慢]]
+
+### 出现 detected dubious ownership
+
+```
+fatal: detected dubious ownership in repository at 'xxx'
+'xx' is owned by:
+        Reimu
+but the current user is:
+        Marisa
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory 'xxx'
+```
+
+在Windows中，发生过这种问题，在这种情况下，一切对本地仓库的操作都会被阻止。
+这是因为仓库文件夹的**所有者**发生了变化。
+
+可以按照提示对相应文件夹进行临时解决，一劳永逸的方法是：
+```bash
+git config --global --add safe.directory "*"
+```
 
 ---
 
