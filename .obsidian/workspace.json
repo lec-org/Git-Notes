@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f9c3a6cd1f1d8f88",
+        "id": "f017dbf53bee7df5",
         "type": "tabs",
         "children": [
           {
-            "id": "e5a21f1d8408bbdb",
+            "id": "0987100d27ba6f03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e30e8908e9e50787",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Git.md"
               }
             }
           },
@@ -169,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -177,13 +164,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "93d5426ff6fd1c4c",
+  "active": "0987100d27ba6f03",
   "lastOpenFiles": [
     "Git.md",
-    "README.md",
+    "杂类知识/git clone或push速度过慢.md",
     "杂类知识/git log和git reflog.md",
     "杂类知识/git stash.md",
     "杂类知识/HEAD.md",
+    "README.md",
+    "未命名.md",
+    "杂类知识/Git如何push大文件.md",
+    "杂类知识/attachments/Pasted image 20240902214746.png",
+    "杂类知识/attachments",
     "杂类知识",
     "Git杂类知识.md",
     "sync_config/sync-config.bat",

@@ -4,5 +4,6 @@
   "monospaceFontFamily": "JetBrains Mono",
   "textFontFamily": "JetBrains Mono",
   "nativeMenus": false,
-  "cssTheme": "Border"
+  "cssTheme": "Border",
+  "baseFontSize": 16
 }
