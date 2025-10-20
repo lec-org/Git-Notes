@@ -722,56 +722,9 @@ git submodule foreach git pull origin master
 删除子模块和把子模块转换为普通文件夹
 [[git把子模块文件夹转化为普通文件夹]]
 
-### 删库或清空所有提交
+## 更多小技巧
 
-先随便创建一个孤儿分支，假设名字是aa
-```bash
-git checkout --orphan aa
-```
-
-把所有文件提交到这个分支上
-```bash
-git add .
-git commit -m 'clean'
-```
-
-强制删除主分支
-```bash
-git branch -D master
-```
-
-重命名当前分支
-```bash
-git branch -m master
-```
-
-强制推送到远程
-```bash
-git push -f -u origin master
-```
-
-可以部署成自动化脚本
-你会发现远程只有一个commit记录了
-
-删库是一样的道理
-
-
-## 使用Git自动同步Obsidian配置及仓库
-
-`Obsidian`没有全局配置，所有的配置和插件都是跟着仓库走的。
-
-[用 git submodule（子模块）同步多个 obsidian 库的配置文件](https://forum-zh.obsidian.md/t/topic/334)
-
-本仓库所使用的Git插件即是为了自动同步所用。
-
-> 上文我提到，`git submodule update --remote`会导致子模块头指针分离，这样在自动同步的时候push会出问题
-> 因此，我使用仓库中的*sync_config.bat*进行配置文件(`.Obsidian仓库`)的同步。
-
----
-## 使用Git推送大文件
-参见此网站[glf](https://git-lfs.com/)
-
-[[Git如何push大文件]]
+[[git小妙招]]
 
 ---
 
